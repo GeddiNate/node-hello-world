@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 const server = http.createServer((request, response) => {
 		response.statusCode = 200;
 		response.setHeader('Content-Type', 'text/plain');
-		response.end(Hellow World\n\nCool!');
+		response.end('Hellow World\n\nCool t!');
 });
 
 server.listen(port, (err) => {
